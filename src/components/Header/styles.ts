@@ -14,8 +14,22 @@ export const Content = styled.div`
   justify-content: space-between;
 
   h2 {
+    display: inline-block;
     color: white;
+    margin-left: 10px;
   }
+
+  img {
+    transform: translateY(20px);
+	  z-index: 1;
+    animation: buildingBottom 1s 0.1s ease-in forwards;
+
+    @keyframes buildingBottom {
+	    0% { transform: translateY(20px) }
+	    100% { transform: translateY(0) }
+}
+}
+
 
   button {
     font-size: 1rem;
