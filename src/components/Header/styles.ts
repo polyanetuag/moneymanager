@@ -22,7 +22,7 @@ export const Content = styled.div`
   img {
     transform: translateY(20px);
 	  z-index: 1;
-    animation: buildingBottom 1s 0.1s ease-in forwards;
+    animation: buildingBottom 1.5s 0.1s ease-in forwards;
 
     @keyframes buildingBottom {
 	    0% { transform: translateY(20px) }
